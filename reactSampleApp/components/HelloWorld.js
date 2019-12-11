@@ -7,6 +7,7 @@ class CustomCard extends Component {
       <View style={{alignContent: 'center'}}>
         <Text>{this.props.name}</Text>
         <Text>{this.props.age}</Text>
+        <Text />
         <Image
           source={{
             uri:
